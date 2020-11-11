@@ -3,7 +3,7 @@ library(tidyverse)
 i=1
 
 while(TRUE){
-for(i in df[]){#your cols for example df[24:100]
+for(i in df[]){#replace df[] with your data for instance df[24:100]
   
   
   
