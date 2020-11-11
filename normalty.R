@@ -1,13 +1,15 @@
+library(tidyverse)
+
 i=1
 
 while(TRUE){
-for(i in ozgen[127:129]){
+for(i in df[]){#your cols for example df[24:100]
   
   
   
   a=shapiro.test(i)
   
-  df<-ozgen[127:129]
+  df2<-df[] #your df 
 
 
   print(a)
@@ -19,10 +21,10 @@ for(i in ozgen[127:129]){
 a=i+1
 
   
-for(names in colnames(ozgen[127:129])){
+for(names in colnames(df[]){  #your df 
   
   
-  df%>% pull(names)%>% hist(,xlab = names[],col="orange")
+  df2%>% pull(names)%>% hist(,xlab = names[],col="orange")
   i=i+1
 
 }
